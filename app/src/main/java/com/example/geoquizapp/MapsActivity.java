@@ -35,11 +35,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private String country = "null";
     private TextView timer;
     public List<Address> addresses;
+    private CountDownTimer countDownTimer;
     private long timeLeftMilliseconds = 30000;
     private final LatLng initialPosition = new LatLng(0, 0);
 
     private void startTimer() {
-        CountDownTimer countDownTimer = new CountDownTimer(timeLeftMilliseconds, 1000) {
+        countDownTimer = new CountDownTimer(timeLeftMilliseconds, 1000) {
             @Override
             public void onTick(long millisUntilFinished) {
                 timeLeftMilliseconds = millisUntilFinished;
@@ -80,6 +81,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         selectButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                countDownTimer.cancel();
                 Geocoder geocoder = new Geocoder(MapsActivity.this);
                 try {
                     addresses = geocoder.getFromLocation(marker.getPosition().latitude, marker.getPosition().longitude, 1);
