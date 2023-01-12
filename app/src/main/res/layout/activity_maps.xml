@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/maps_text_color"
+        android:fontFamily="@font/rubik_regular"
+        android:id="@+id/maps_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/maps_text"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:paddingTop="20dp" />
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/maps_text_color"
+        android:fontFamily="@font/rubik_regular"
+        android:id="@+id/maps_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timer_init"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:layout_below="@id/maps_text"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="10dp" />
+
+    <Button
+        android:id="@+id/map_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_label"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingVertical="20dp"
+        android:paddingHorizontal="40dp"
+        android:layout_margin="90dp"
+        android:backgroundTint="@android:color/holo_green_dark"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"/>
+</RelativeLayout>

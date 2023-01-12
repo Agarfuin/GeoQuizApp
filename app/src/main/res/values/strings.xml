@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">GeoQuiz</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="button_label">SELECT</string>
+    <string name="title_activity_main_quiz">MainQuizActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="endgame_fragment_label">Endgame Fragment</string>
+    <string name="game_start">BEGIN THE GAME</string>
+    <string name="previous">Previous</string>
+    <string name="go_map">Map</string>
+    <string name="question_here">QUESTION HERE</string>
+    <string name="option_1">OPTION 1</string>
+    <string name="option_2">OPTION 2</string>
+    <string name="option_3">OPTION 3</string>
+    <string name="option_4">OPTION 4</string>
+    <string name="question_flag">Which country does this flag belong to?</string>
+    <string name="question_view">Which country is this picture from?</string>
+    <string name="question_map">Can you find that country in the map?</string>
+    <string name="congrats">CONGRATULATIONS!</string>
+    <string name="endgame_text">You have completed the GeoQuiz! I am stunned by your geography knowledge!</string>
+    <string name="correct">AWESOME!</string>
+    <string name="correct_next_question">Let\'s move on to the next question!</string>
+    <string name="wrong">UNLUCKY!</string>
+    <string name="wrong_next_question">There are more questions to answer. Let\'s keep going!</string>
+    <string name="timer_init">30</string>
+    <string name="timer_runout">TOO LATE!</string>
+    <string name="timer_runout_next_question">Timer has run out.\nBe faster next time!</string>
+    <string name="next_question">NEXT QUESTION</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="maps_text">You knew the country, but can you find it on the map?</string>
+
+    <string name="welcome_first_fragment">WELCOME TO GEOQUIZ</string>
+    <string name="welcome_second_fragment">Are you ready to test your knowledge?</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_dumb">DumbActivity</string>
+    <string name="next">Next</string>
+    <string name="appbar_questions_left">Questions Left: </string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
