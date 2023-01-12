@@ -14,6 +14,6 @@ If the user's answer on the first part(multiple choice) correctly, then this par
 
 There are 40 questions in total and if the user answers both of the parts correctly then the question for that country gets deleted from the database.
 
-If not, the question stays inside the database and it will appear again in the future.
+If not, the question stays inside the database and it will appear again in the upcoming questions.
 
 Have fun!
