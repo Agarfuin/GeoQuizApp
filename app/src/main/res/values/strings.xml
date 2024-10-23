@@ -16,7 +16,7 @@
     <string name="option_3">OPTION 3</string>
     <string name="option_4">OPTION 4</string>
     <string name="question_flag">Which country does this flag belong to?</string>
-    <string name="question_view">Which country is this picture from?</string>
+    <string name="question_view">Which country is this view from?</string>
     <string name="question_map">Can you find that country in the map?</string>
     <string name="congrats">CONGRATULATIONS!</string>
     <string name="endgame_text">You have completed the GeoQuiz! I am stunned by your geography knowledge!</string>
